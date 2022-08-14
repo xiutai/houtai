@@ -32,8 +32,4 @@ cp -p * /home/acunetix/.acunetix/data/license/
 ```
 wget https://raw.githubusercontent.com/xiutai/houtai/main/msfupdate.erb -O msfinstall && sudo sh msfinstall
 ```
-或者
-```
-curl https://raw.githubusercontent.com/xiutai/houtai/main/msfupdate.erb > msfinstall &&chmod 755 msfinstall &&./msfinstall
-```
 #
