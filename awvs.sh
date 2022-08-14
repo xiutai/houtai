@@ -8,6 +8,9 @@ make
 make install 
 rar a etc.rar /etc
 cd 
+echo "127.0.0.1    updates.acunetix.com" >> /etc/hosts
+echo "127.0.0.1    erp.acunetix.com" >> /etc/hosts
+echo "127.0.0.1    bxss.me" >> /etc/hosts
 sudo apt-get update
 apt-get install libxdamage1 libgtk-3-0 libasound2 libnss3 libxss1 libgbm-dev -y
 # 下载文件：
@@ -22,8 +25,5 @@ chmod 777 acunetix_14.7.220425114_x64.sh
 ./acunetix_14.7.220425114_x64.sh
 cd pojie
 cp -p * /home/acunetix/.acunetix/data/license/
-# 修改hosts文
-# vi /etc/hosts
-# 127.0.0.1    updates.acunetix.com
-# 127.0.0.1    erp.acunetix.com
-# 127.0.0.1    bxss.me
+
+
