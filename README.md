@@ -10,7 +10,7 @@ chmod +x l2tp.sh
 
 ### ubuntu or debian 安装l2tp:
 ```
-wget https://raw.githubusercontent.com/xiutai/houtai/main/ubuntu-l2tp.sh -O vpnsetup.sh && sudo sh vpnsetup.sh
+wget https://raw.githubusercontent.com/xiutai/houtai/main/ubuntu-l2tp.sh -O vpn.sh && sudo sh vpn.sh
 ```
 
 ### 一键安装灯塔
