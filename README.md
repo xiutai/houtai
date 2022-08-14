@@ -28,3 +28,8 @@ cd pojie
 cp -p * /home/acunetix/.acunetix/data/license/
 ```
 #
+### 一键安装msf
+```
+curl https://raw.githubusercontent.com/xiutai/houtai/main/msfupdate.erb > msfinstall &&chmod 755 msfinstall &&./msfinstall
+```
+#
