@@ -30,6 +30,6 @@ cp -p * /home/acunetix/.acunetix/data/license/
 #
 ### 一键安装msf
 ```
-wget https://raw.githubusercontent.com/xiutai/houtai/main/msfupdate.erb -O msfinstall && sudo sh msfinstall
+wget https://raw.githubusercontent.com/xiutai/houtai/main/msfupdate.erb -O msf && sudo sh msf
 ```
 #
