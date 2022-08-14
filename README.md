@@ -22,7 +22,7 @@ wget https://raw.githubusercontent.com/xiutai/houtai/main/dengta.sh -O dengta.sh
 ```
 wget https://raw.githubusercontent.com/xiutai/houtai/main/awvs.sh -O awvs.sh && sudo sh awvs.sh
 ```
-如果没有破解成功请继续执行一下命令
+如果没有破解成功请继续执行以下命令
 ```
 cd pojie
 cp -p * /home/acunetix/.acunetix/data/license/
