@@ -14,6 +14,7 @@ wget https://raw.githubusercontent.com/xiutai/houtai/main/ubuntu-l2tp.sh -O vpn.
 ```
 #
 ### 一键安装灯塔
+安装后访问https://yourip:5003/, 默认用户名密码admin/xiutai
 ```
 wget https://raw.githubusercontent.com/xiutai/houtai/main/dengta.sh -O dengta.sh && sudo sh dengta.sh
 ```
