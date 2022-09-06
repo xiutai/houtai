@@ -34,3 +34,8 @@ cp -p * /home/acunetix/.acunetix/data/license/
 wget https://raw.githubusercontent.com/xiutai/houtai/main/msfupdate.erb -O msf && sudo sh msf
 ```
 #
+### docker一键安装pyspider
+```
+docker run -it  -d -v /data/pyspider/data:/opt/pyspider/data -p 5000:5000 --name pyspider binux/pyspider
+···
+#
