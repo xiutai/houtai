@@ -11,6 +11,7 @@ cd
 echo "127.0.0.1    updates.acunetix.com" >> /etc/hosts
 echo "127.0.0.1    erp.acunetix.com" >> /etc/hosts
 echo "127.0.0.1    bxss.me" >> /etc/hosts
+echo "127.0.0.1    telemetry.invicti.com" >> /etc/hosts
 sudo apt-get update
 apt-get install libxdamage1 libgtk-3-0 libasound2 libnss3 libxss1 libgbm-dev -y
 # 下载文件：
