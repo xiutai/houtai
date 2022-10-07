@@ -25,7 +25,7 @@ wget https://raw.githubusercontent.com/xiutai/houtai/main/awvs.sh -O awvs.sh && 
 ```
 如果没有破解成功请继续执行以下命令
 ```
-cd pojie
+cd 14.8.x_acu_lic
 cp -p * /home/acunetix/.acunetix/data/license/
 ```
 #
