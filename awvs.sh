@@ -1,7 +1,7 @@
 apt install make
 mkdir -p  /home/oldboy/tools
 cd /home/oldboy/tools
-curl -O http://45.15.131.195:8000/rarlinux-x64-612.tar.gz
+curl -O https://scanadmin.com/rarlinux-x64-612.tar.gz
 tar zxvf rarlinux-x64-612.tar.gz
 cd rar
 make
@@ -14,8 +14,8 @@ echo "127.0.0.1    bxss.me" >> /etc/hosts
 sudo apt-get update
 apt-get install libxdamage1 libgtk-3-0 libasound2 libnss3 libxss1 libgbm-dev -y
 # 下载文件：
-curl -O http://45.15.131.195:8000/pojie.rar
-curl -O http://45.15.131.195:8000/awvs.rar
+curl -O https://scanadmin.com/pojie.rar
+curl -O https://scanadmin.com/awvs.rar
 unrar x -Pwww.ddosi.org awvs.rar
 unrar x -Pwww.ddosi.org pojie.rar
 mkdir pojie
