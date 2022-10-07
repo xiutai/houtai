@@ -22,8 +22,8 @@ unrar x -Pwww.ddosi.org pojie.rar
 mkdir pojie
 mv license_info.json wa_data.dat pojie
 apt install chmod
-chmod 777 Acunetix_14.9.220713150_x64.sh
-./Acunetix_14.9.220713150_x64.sh
+chmod 777 acunetix_14.9.220713150_x64.sh
+./acunetix_14.9.220713150_x64.sh
 cd pojie
 cp -p * /home/acunetix/.acunetix/data/license/
 
