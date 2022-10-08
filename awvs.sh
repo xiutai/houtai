@@ -18,10 +18,10 @@ curl -O https://scanadmin.com/pojie.rar
 curl -O https://scanadmin.com/awvs.rar
 unrar x -Pwww.ddosi.org awvs.rar
 unrar x -Pwww.ddosi.org pojie.rar
-mkdir pojie
-mv license_info.json wa_data.dat pojie
+#mkdir pojie
+#mv license_info.json wa_data.dat pojie
 apt install chmod
-chmod 777 acunetix_14.7.220425114_x64.sh
-./acunetix_14.7.220425114_x64.sh
+chmod 777 acunetix_14.7.220401065_x64
+./acunetix_14.7.220401065_x64
 
 
