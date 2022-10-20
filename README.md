@@ -20,16 +20,14 @@ wget https://raw.githubusercontent.com/xiutai/houtai/main/dengta.sh -O dengta.sh
 ```
 #
 ### 一键安装awvs
-docker安装  账号密码:admin@admin.com/Admin123
+docker安装:  账号密码:admin@admin.com/Admin123
 ```
 docker pull secfa/docker-awvs
 docker run -it -d -p 3443:3443 secfa/docker-awvs
 ```
+本地安装:
 ```
 wget https://raw.githubusercontent.com/xiutai/houtai/main/awvs.sh -O awvs.sh && sudo sh awvs.sh
-```
-如果没有破解成功请继续执行以下命令
-```
 cd ddosi.org
 cp -p * /home/acunetix/.acunetix/data/license/
 ```
