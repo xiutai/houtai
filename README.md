@@ -23,7 +23,7 @@ wget https://raw.githubusercontent.com/xiutai/houtai/main/dengta.sh -O dengta.sh
 docker安装:  账号密码:admin@admin.com/Admin123
 ```
 docker pull secfa/docker-awvs
-docker run -it -d -p 3443:3443 secfa/docker-awvs
+docker run --name awvs -it -d -p 3443:3443 secfa/docker-awvs
 ```
 本地安装:
 ```
