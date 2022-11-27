@@ -3,8 +3,8 @@
 ### centos安装l2tp:
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/xiutai/houtai/main/centos-l2tp.sh
-chmod +x l2tp.sh
-./l2tp.sh
+chmod +x centos-l2tp.sh
+./centos-l2tp.sh
 ```
 
 #
