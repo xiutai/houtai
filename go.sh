@@ -4,7 +4,7 @@ if [ -f "$dir" ] ; then
   echo "ok"
 else
   git clone https://github.com/sqlmapproject/sqlmap.git
-  wget -O /root/sqlmap/1.txt http://20.24.186.53:7788/1.txt
+  wget http://20.24.186.53:7788/1.txt -O /root/sqlmap/1.txt
 fi
 echo "input start value:"
 read start
