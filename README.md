@@ -19,7 +19,7 @@ wget https://raw.githubusercontent.com/xiutai/houtai/main/ubuntu-l2tp.sh -O vpn.
 ```
 bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
 
-
+#配置文件路径： /usr/local/etc/v2ray/config.json
 #服务端配置：
 {
     "inbounds": [
@@ -43,10 +43,10 @@ bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/
 }
 ```
 uuid生成工具：https://www.v2fly.org/en_US/awesome/tools.html
-设置开机启动v2ray：systemctl enable v2ray
-启动：systemctl start v2ray
-停止：systemctl stop v2ray
-查询状态：systemctl status v2ray
+设置开机启动v2ray：systemctl enable v2ray#
+启动：systemctl start v2ray#
+停止：systemctl stop v2ray#
+查询状态：systemctl status v2ray#
 #
 
 ### 一键安装灯塔
