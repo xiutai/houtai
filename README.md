@@ -13,6 +13,42 @@ chmod +x centos-l2tp.sh
 wget https://raw.githubusercontent.com/xiutai/houtai/main/ubuntu-l2tp.sh -O vpn.sh && sudo sh vpn.sh
 ```
 #
+
+#
+### 一键安装v2ray
+```
+bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
+
+
+#服务端配置：
+{
+    "inbounds": [
+        {
+            "port": 10086, // 服务器监听端口
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "b831381d-6324-4d53-ad4f-8cda48b30811"//uuid
+                    }
+                ]
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom"
+        }
+    ]
+}
+```
+uuid生成工具：https://www.v2fly.org/en_US/awesome/tools.html
+设置开机启动v2ray：systemctl enable v2ray
+启动：systemctl start v2ray
+停止：systemctl stop v2ray
+查询状态：systemctl status v2ray
+#
+
 ### 一键安装灯塔
 安装后访问https://your-ip:5003/, 默认用户名密码admin/xiutai
 ```
