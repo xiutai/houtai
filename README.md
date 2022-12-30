@@ -8,7 +8,7 @@ chmod +x centos-l2tp.sh
 ```
 
 #
-### ubuntu or debian 安装l2tp:
+### ubuntu or debian 安装l2tp+IKEv2:
 ```
 wget https://raw.githubusercontent.com/xiutai/houtai/main/ubuntu-l2tp.sh -O vpn.sh && sudo sh vpn.sh
 ```
