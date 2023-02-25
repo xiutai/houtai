@@ -1,6 +1,6 @@
 apt-get install docker.io docker-compose -y
-git clone https://github.com/xiutai/ARL
-cd ARL/docker/
+git clone https://github.com/xiutai/dengta
+cd dengta/docker/
 docker volume create arl_db
 docker-compose pull
 docker-compose up -d 
