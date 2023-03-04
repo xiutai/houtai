@@ -22,6 +22,12 @@ bash <(curl -sL https://raw.githubusercontent.com/hiifeng/v2ray/main/install_v2r
 https://v2xtls.org/v2rayn-4-12%e9%85%8d%e7%bd%ae%e6%95%99%e7%a8%8b/
 #
 
+###一键安装socks5代理
+```
+wget -q -N --no-check-certificate https://raw.githubusercontent.com/wyx176/nps-socks5/master/install.sh && chmod 777 install.sh && bash install.sh
+```
+#
+
 ### 一键安装灯塔
 安装后访问https://your-ip:5003/, 默认用户名密码admin/xiutai
 ```
