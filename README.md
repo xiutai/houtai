@@ -38,9 +38,16 @@ web管理端口web_port = 18080
 #
 
 ### 一键安装灯塔
-安装后访问https://your-ip:5003/, 默认用户名密码admin/xiutai
+安装后访问https://your-ip:5003/, 默认用户名密码admin/arlpass
 ```
-wget https://raw.githubusercontent.com/xiutai/houtai/main/dengta.sh -O dengta.sh && sudo sh dengta.sh
+cd /opt/
+mkdir docker_arl
+wget -O docker_arl/docker.zip https://github.com/xiutai/houtai/releases/download/arl/docker-arl.zip
+cd docker_arl
+unzip -o docker.zip
+docker-compose pull
+docker volume create arl_db
+docker-compose up -d
 ```
 #
 ### 一键安装awvs
