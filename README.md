@@ -16,10 +16,8 @@ wget https://raw.githubusercontent.com/xiutai/houtai/main/ubuntu-l2tp.sh -O vpn.
 
 ### 一键安装v2ray
 ```
-bash <(curl -sL https://raw.githubusercontent.com/hiifeng/v2ray/main/install_v2ray.sh)
+bash <(wget -qO- -o- https://git.io/v2ray.sh)
 ```
-配置教程
-https://v2xtls.org/v2rayn-4-12%e9%85%8d%e7%bd%ae%e6%95%99%e7%a8%8b/
 #
 
 ### 一键安装socks5代理
