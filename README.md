@@ -40,7 +40,7 @@ web管理端口web_port = 18080
 ```
 cd /opt/
 mkdir docker_arl
-wget -O docker_arl/docker.zip [https://github.com/xiutai/houtai/releases/download/arl/docker-arl.zip](https://github.com/xiutai/houtai/files/13747723/docker-arl.zip)
+wget -O docker_arl/docker.zip https://github.com/xiutai/houtai/files/13747723/docker-arl.zip
 cd docker_arl
 unzip -o docker.zip
 docker-compose pull
