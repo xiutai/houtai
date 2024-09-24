@@ -20,6 +20,12 @@ bash <(wget -qO- -o- https://git.io/v2ray.sh)
 ```
 #
 
+### 一键安装x-iu代理面板
+```
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+```
+#
+
 ### 一键安装socks5代理
 ```
 wget -q -N --no-check-certificate https://raw.githubusercontent.com/wyx176/nps-socks5/master/install.sh && chmod 777 install.sh && bash install.sh
