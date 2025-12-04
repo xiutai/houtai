@@ -69,7 +69,9 @@ cp -p * /home/acunetix/.acunetix/data/license/
 #
 ### 一键安装msf
 ```
-wget https://raw.githubusercontent.com/xiutai/houtai/main/msfupdate.erb -O msf && sudo sh msf
+curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
+  chmod 755 msfinstall && \
+  ./msfinstall
 ```
 #
 ### docker一键安装pyspider
